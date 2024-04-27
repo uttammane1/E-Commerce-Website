@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#filter{
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+h1{
+    color: white;
+}
+.category{
+    color: white;
+}
+#product-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.product-item{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+.product-item img{
+    max-width: 100px;
+    height: auto;
+}
+.product-item h3{
+    margin: 10px 0;
+}
+.product-item p{
+    font-weight: bold;
+    color: blue;
+}

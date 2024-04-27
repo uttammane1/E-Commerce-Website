@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing Web Application using FakeStoreAPI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Product Listing App</h1>
+        <div id="filter">
+            <label for="category">Filter by Category :</label>
+            <select id="category">
+                <option value="">All Categores</option>
+            </select>
+            <label for="sort">Sort by Price :</label>
+            <select id="sort">
+                <option value="asc">Price Low to High</option>
+                <option value="desc">Price High to Low</option>
+            </select>
+
+            <input type="text" id="search" placeholder="search by title">
+
+        </div>
+    </header>
+    <main id="product-list"></main>
+    <script src="script.js"></script>
+</body>
+</html>
